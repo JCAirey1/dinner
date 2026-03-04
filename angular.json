@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "dinner2": {
+    "dinner": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -61,10 +61,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "dinner2:build:production"
+              "buildTarget": "dinner:build:production"
             },
             "development": {
-              "buildTarget": "dinner2:build:development"
+              "buildTarget": "dinner:build:development"
             }
           },
           "defaultConfiguration": "development"
