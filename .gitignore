@@ -1,0 +1,59 @@
+# =========================
+# Node
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package lock (keep this if you want reproducible builds)
+# REMOVE this line if you WANT to commit package-lock.json
+# package-lock.json
+
+# =========================
+# Angular build output
+# =========================
+dist/
+out-tsc/
+.angular/
+.tmp/
+
+# =========================
+# Environment files
+# =========================
+src/environments/*.local.ts
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# Misc
+# =========================
+*.swp
+*.tmp
